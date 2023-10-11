@@ -9,7 +9,7 @@ export default function WordProvider({ children }) {
     const [correct, setCorrect] = useState([]);
     const [guesses, setGuesses] = useState(4);
 
-    const URL = 'https://m6y6xp4gri5mv3cc2ykrvlgpc40cvuvn.lambda-url.us-east-1.on.aws/';
+    const URL = 'https://backend-url-goes-here.com/';
 
     useEffect(() => {
         const fetchData = async() => {
